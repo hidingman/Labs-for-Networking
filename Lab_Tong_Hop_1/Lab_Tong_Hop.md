@@ -60,10 +60,10 @@ R1#show ip route rip
 [..]
 
 	10.0.0.0/8 is variably subnetted, 6 subnets, 3 masks
-R		10.0.0.0/8 		[120/1]		via 192.168.13.3, 00:00:07, Ethernet0/2.13
-R		10.1.2.0/24 	[120/1]		via 192.168.12.2, 00:00:11, Ethernet0/1.12
+R		10.0.0.0/8		[120/1]		via 192.168.13.3, 00:00:07, Ethernet0/2.13
+R		10.1.2.0/24		[120/1]		via 192.168.12.2, 00:00:11, Ethernet0/1.12
 R		10.1.3.0/24		[120/1]		via 192.168.12.2, 00:00:11, Ethernet0/1.12
-R		10.1.23.0/24	[120/1]		via 192.168.12.2, 00:00:11, Ethernet0/1.12
+R		10.1.23.0/24		[120/1]		via 192.168.12.2, 00:00:11, Ethernet0/1.12
 ```
 
 c.	Thực hiện thiết lập sơ đồ Ipv6 giữa R1 và R3 như hình sau. Sử dụng một hình thức định tuyến IPv6 bất kỳ đảm bảo mọi địa chỉ IPv6 trên sơ đồ thấy nhau.
