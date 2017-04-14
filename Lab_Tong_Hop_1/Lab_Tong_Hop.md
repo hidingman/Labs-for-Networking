@@ -3,7 +3,7 @@
 ### Mô tả:
 Hệ thống mạng được xây dựng như sơ đồ.
 
-![lab](https://github.com/nhuhp/Labs-for-Networking/blob/master/pictures/Lab_Tong_Hop_1/lab.png)
+![lab](https://github.com/nhuhp/Labs-for-Networking/blob/master/Lab_Tong_Hop_1/img/lab.png)
 
 - ISP rót về một IP tĩnh `100.0.0.6/32`
 
@@ -51,7 +51,7 @@ Cấu hình DHCP trên R2 cấp IP tự động cho VLAN 30.
 #### 11. Yêu cầu khác:
 ##### a. Trên các router, thực hiện cấu hình thích hợp để xây dựng sơ đồ như hình dưới:
 
-![de_morong1](https://github.com/nhuhp/Labs-for-Networking/blob/master/pictures/Lab_Tong_Hop_1/de_morong.png)
+![de_morong1](https://github.com/nhuhp/Labs-for-Networking/blob/master/Lab_Tong_Hop_1/img/de_morong.png)
 
 b.	Cấu hình định tuyến RIP version 2 trên sơ đồ hình 2 đảm bảo kết quả show trên R1 như sau:
 
@@ -65,7 +65,8 @@ R		10.1.2.0/24 	[120/1]		via 192.168.12.2, 00:00:11, Ethernet0/1.12
 R		10.1.3.0/24		[120/1]		via 192.168.12.2, 00:00:11, Ethernet0/1.12
 R		10.1.23.0/24	[120/1]		via 192.168.12.2, 00:00:11, Ethernet0/1.12
 ```
+
 c.	Thực hiện thiết lập sơ đồ Ipv6 giữa R1 và R3 như hình sau. Sử dụng một hình thức định tuyến IPv6 bất kỳ đảm bảo mọi địa chỉ IPv6 trên sơ đồ thấy nhau.
 
-![de_morong2](https://github.com/nhuhp/Labs-for-Networking/blob/master/pictures/Lab_Tong_Hop_1/de_morong2.png)
+![de_morong2](https://github.com/nhuhp/Labs-for-Networking/blob/master/Lab_Tong_Hop_1/img/de_morong2.png)
 
